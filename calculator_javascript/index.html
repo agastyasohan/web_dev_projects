@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="Calculator">
+        <div class="inputs">
+            <input type="text">
+        </div>
+        <div class="operators">
+            <button onclick="solve('+')">+</button>
+            <button onclick="solve('-')">-</button>
+            <button onclick="solve('*')">*</button>
+            <button onclick="solve('/')">/</button>
+        </div>
+    
+        <div class="num_equ">
+            <div class="numbers">
+                <button onclick="solve(7)">7</button>
+                <button onclick="solve(8)">8</button>
+                <button onclick="solve(9)">9</button>
+                <button onclick="solve(4)">4</button>
+                <button onclick="solve(5)">5</button>
+                <button onclick="solve(6)">6</button>
+                <button onclick="solve(1)">1</button>
+                <button onclick="solve(2)">2</button>
+                <button onclick="solve(3)">3</button>
+                <button onclick="solve(0)">0</button>
+                <button onclick="solve('.')">.</button>
+                <button onclick="Clear()">c</button>
+            </div>
+    
+            <div class="equals">
+                <button onclick="Result()">=</button>
+            </div>
+        </div>
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
