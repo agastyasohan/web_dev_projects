@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1f2937;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+
+    align-items: center;
+}
+
+nav .title {
+    font-size: 40px;
+    font-weight: 600;
+    color: orangered;
+    border-radius: 12px;
+    background-color: white;
+    padding: 10px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a, .hero_text button a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login {
+    padding: 10px 20px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero {
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+.hero_text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+.hero_text p {
+    color: aliceblue;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.hero_text button{
+    padding: 10px 20px;
+    background-color: #3882F6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.books_img {
+    width: 600px;
+    height: 500px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.other {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.check {
+    color: #1F2937;
+    font-weight: bolder;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.card_container {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.card_container img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+.card {
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+
+   border-radius: 12px;
+   box-shadow: 0px 2px 4px black;
+   overflow: hidden;
+}
+
+.card button {
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: papayawhip;
+    cursor: pointer;
+}
+
+.card button a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+/* Quote Section */
+
+.quote_section {
+    background-color: #E5E7EB;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    padding: 20px;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+/* subscribe section  */
+
+.signup {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    padding-top: 30px;
+}
+.signup_box {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    background-color: #3882F6;
+    border-radius: 12px;
+    color: white;
+    gap: 150px;
+}
+
+.signup_box button {
+    border-color: white;
+    background-color: #3882F6;
+    width:100px;
+    height: 30px;
+    color:white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.signup_box button a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+footer {
+    background-color: #2d3c50;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+
+}
