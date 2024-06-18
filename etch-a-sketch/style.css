@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+}
+
+
+.board {
+    height: 500px;
+    width: 500px;
+    display: grid;
+    border: 1px solid black;
+}
+
+
+
+.footer {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+    align-items: center;
+}
