@@ -12,15 +12,15 @@
     <h1>Etch-A-Sketch</h1>
     <div class="header">
         <h6> Select the size </h6>
-        <button id="popup" class="btn btn-danger"> select </button>
+        <input type="range" min="1" max="100" value="16" class="slider">
     </div>
     <div class="board">
 
     </div>
     <div class="footer">
-        <button class="btn btn-dark">black</button>
-        <button class="btn btn-warning">random</button>
-        <button class="btn btn-success">reset</button>
+        <button class="btn btn-dark" onclick="setColor('black')">black</button>
+        <button class="btn btn-warning" onclick="setColor('random')">random</button>
+        <button class="btn btn-success" onclick="resetBoard()">reset</button>
     </div>
     <script src="app.js"></script>
 </body>

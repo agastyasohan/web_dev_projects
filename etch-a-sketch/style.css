@@ -5,14 +5,33 @@ body{
     flex-direction: column;
 }
 
+h1 {
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 12px;
+    background-color: #f4b41a;
+    color: #142d59;
+}
 .header {
 
     margin: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     width: 400px;
+}
+
+.header h6 {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #7091e6;
+    color: white;
+}
+
+.slider {
+    width: 300px;
 }
 
 
