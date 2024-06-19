@@ -6,7 +6,6 @@ body{
 }
 
 h1 {
-    padding: 30px;
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 12px;
@@ -14,8 +13,7 @@ h1 {
     color: #142d59;
 }
 .header {
-
-    margin: 20px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -36,8 +34,8 @@ h1 {
 
 
 .board {
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 800px;
     display: grid;
     border: 1px solid black;
 }
@@ -45,7 +43,7 @@ h1 {
 
 
 .footer {
-    margin: 30px;
+    margin: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
