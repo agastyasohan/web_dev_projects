@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+}
+

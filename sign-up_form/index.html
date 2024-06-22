@@ -4,8 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sign-up form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="sign-up">
+        <div class="left">
+            <img class="background_img" src="assets/cyber_city.png" alt="cyber_city">
+            <div class="logo">
+                <img class="logo_img" src="assets/odin_logo.png" alt="odin_logo">
+                odin
+            </div>
+        </div>
+    
+        <div class="right">
+    
+            <div class="message">
+                <h1>Welcome to Cyber City!</h1>
+                <p>Step into the future and unlock your potential.</p> 
+                <p>Sign up now to embark on your journey and make your dreams a reality.</p>
+                <p>You know you can't wait</p>
+            </div>
+    
+            <form action="#" method="get">
+                <h3> let's do this! </h3>
+                <div class="left_box">
+                    <label for="first_name"> First Name: </label>
+                    <input type="text" id="first_name" name="first_name" required>
+    
+                    <label for="email"> Email </label>
+                    <input type="email" id="email" name="email" pattern="^\w*(\-\w)?(\.\w*)?@\w*(-\w*)?\.\w{2,3}(\.\w{2,3})?$" required>
+    
+                    <label for="password"> Password </label>
+                    <input type="password" id="password" name="password" pattern=".{6,}" required>
+                </div>
+                <div class="right_box">
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" id="last_name" name="last_name" required>
+    
+                    <label for="phone_num">Phone Number</label>
+                    <input type="tel" id="phone_num" name="phone_num" pattern="\d{10}" required>
+    
+                    <label for="confirm_password"> Confirm Password</label>
+                    <input type="password" name="confirm_password" id="confirm_password" required>
+                </div>
+    
+                <div class="bottom">
+                    <button type="submit">Create Account</button>
+                    <div>
+                        <p>Already have an account?</p>
+                        <button type="button">login</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
     
 </body>
 </html>
