@@ -4,14 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
 
-        <div class="header"></div>
-        <div class="sidebar"></div>
-        <div class="main_content"></div>
+        <div class="header">
+            <div class="search"></div>
+            <div class="bell"></div>
+            <div class="logo"></div>
+        </div>
+
+        <div class="sidebar">
+
+            <div class="dashboard-section">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>view-dashboard</title><path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" /></svg>
+                <h2>Dashboard</h2>
+            </div>
+
+            <div class="general">
+
+                <div class="user-management">
+                    <div class="icon-text">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>home</title><path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" /></svg>
+                        <h3>Home</h3>
+                    </div>
+                    <div class="icon-text">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>face-man-profile</title><path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,8.39C13.57,9.4 15.42,10 17.42,10C18.2,10 18.95,9.91 19.67,9.74C19.88,10.45 20,11.21 20,12C20,16.41 16.41,20 12,20C9,20 6.39,18.34 5,15.89L6.75,14V13A1.25,1.25 0 0,1 8,11.75A1.25,1.25 0 0,1 9.25,13V14H12M16,11.75A1.25,1.25 0 0,0 14.75,13A1.25,1.25 0 0,0 16,14.25A1.25,1.25 0 0,0 17.25,13A1.25,1.25 0 0,0 16,11.75Z" /></svg>
+                        <h3>profile</h3>
+                    </div>
+                    <div class="icon-text">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>message</title><path d="M20,2H4A2,2 0 0,0 2,4V22L6,18H20A2,2 0 0,0 22,16V4C22,2.89 21.1,2 20,2Z" /></svg>
+                        <h3>Messages</h3>
+                    </div>
+                    <div class="icon-text">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>history</title><path d="M13.5,8H12V13L16.28,15.54L17,14.33L13.5,12.25V8M13,3A9,9 0 0,0 4,12H1L4.96,16.03L9,12H6A7,7 0 0,1 13,5A7,7 0 0,1 20,12A7,7 0 0,1 13,19C11.07,19 9.32,18.21 8.06,16.94L6.64,18.36C8.27,20 10.5,21 13,21A9,9 0 0,0 22,12A9,9 0 0,0 13,3" /></svg>
+                        <h3>History</h3>
+                    </div>
+                    <div class="icon-text">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>calendar-check</title><path d="M19,19H5V8H19M19,3H18V1H16V3H8V1H6V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M16.53,11.06L15.47,10L10.59,14.88L8.47,12.76L7.41,13.82L10.59,17L16.53,11.06Z" /></svg>
+                        <h3>Tasks</h3>
+                    </div>
+                    <div class="icon-text">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>account-group</title><path d="M12,5.5A3.5,3.5 0 0,1 15.5,9A3.5,3.5 0 0,1 12,12.5A3.5,3.5 0 0,1 8.5,9A3.5,3.5 0 0,1 12,5.5M5,8C5.56,8 6.08,8.15 6.53,8.42C6.38,9.85 6.8,11.27 7.66,12.38C7.16,13.34 6.16,14 5,14A3,3 0 0,1 2,11A3,3 0 0,1 5,8M19,8A3,3 0 0,1 22,11A3,3 0 0,1 19,14C17.84,14 16.84,13.34 16.34,12.38C17.2,11.27 17.62,9.85 17.47,8.42C17.92,8.15 18.44,8 19,8M5.5,18.25C5.5,16.18 8.41,14.5 12,14.5C15.59,14.5 18.5,16.18 18.5,18.25V20H5.5V18.25M0,20V18.5C0,17.11 1.89,15.94 4.45,15.6C3.86,16.28 3.5,17.22 3.5,18.25V20H0M24,20H20.5V18.25C20.5,17.22 20.14,16.28 19.55,15.6C22.11,15.94 24,17.11 24,18.5V20Z" /></svg>
+                        <h3>Communities</h3>
+                    </div>
+                </div>
+    
+                <div class="settings">
+                    <div class="icon-text">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>cog-box</title><path d="M17.25,12C17.25,12.23 17.23,12.46 17.2,12.68L18.68,13.84C18.81,13.95 18.85,14.13 18.76,14.29L17.36,16.71C17.27,16.86 17.09,16.92 16.93,16.86L15.19,16.16C14.83,16.44 14.43,16.67 14,16.85L13.75,18.7C13.72,18.87 13.57,19 13.4,19H10.6C10.43,19 10.28,18.87 10.25,18.7L10,16.85C9.56,16.67 9.17,16.44 8.81,16.16L7.07,16.86C6.91,16.92 6.73,16.86 6.64,16.71L5.24,14.29C5.15,14.13 5.19,13.95 5.32,13.84L6.8,12.68C6.77,12.46 6.75,12.23 6.75,12C6.75,11.77 6.77,11.54 6.8,11.32L5.32,10.16C5.19,10.05 5.15,9.86 5.24,9.71L6.64,7.29C6.73,7.13 6.91,7.07 7.07,7.13L8.81,7.84C9.17,7.56 9.56,7.32 10,7.15L10.25,5.29C10.28,5.13 10.43,5 10.6,5H13.4C13.57,5 13.72,5.13 13.75,5.29L14,7.15C14.43,7.32 14.83,7.56 15.19,7.84L16.93,7.13C17.09,7.07 17.27,7.13 17.36,7.29L18.76,9.71C18.85,9.86 18.81,10.05 18.68,10.16L17.2,11.32C17.23,11.54 17.25,11.77 17.25,12M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3M12,10C10.89,10 10,10.89 10,12A2,2 0 0,0 12,14A2,2 0 0,0 14,12C14,10.89 13.1,10 12,10Z" /></svg>
+                        <h3>Settings</h3>
+                    </div>
+                    <div class="icon-text">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>help-box-multiple</title><path d="M16 20V22H4C2.9 22 2 21.1 2 20V7H4V20H16M20 2H8C6.9 2 6 2.9 6 4V16C6 17.1 6.9 18 8 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2M15 14H13V12H15V14M16.8 8.8C16.5 9.2 16.1 9.5 15.7 9.7C15.5 9.9 15.3 10 15.2 10.2C15 10.4 15 10.7 15 11H13C13 10.5 13.1 10.1 13.3 9.8C13.5 9.5 13.8 9.2 14.3 8.9C14.6 8.7 14.8 8.5 14.9 8.3C15.1 8.1 15.1 7.8 15.1 7.5C15.1 7.2 15 6.9 14.8 6.7C14.6 6.5 14.4 6.4 14 6.4C13.7 6.4 13.5 6.5 13.3 6.6C13.1 6.8 13 7 13 7.3H11.1C11.1 6.5 11.3 5.9 11.9 5.5C12.6 5.2 13.3 5 14.2 5C15.1 5 15.9 5.2 16.4 5.7C16.9 6.2 17.2 6.8 17.2 7.5C17.2 8 17 8.4 16.8 8.8Z" /></svg>
+                        <h3>Support</h3>
+                    </div>
+                    <div class="icon-text">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>shield-account</title><path d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,5A3,3 0 0,1 15,8A3,3 0 0,1 12,11A3,3 0 0,1 9,8A3,3 0 0,1 12,5M17.13,17C15.92,18.85 14.11,20.24 12,20.92C9.89,20.24 8.08,18.85 6.87,17C6.53,16.5 6.24,16 6,15.47C6,13.82 8.71,12.47 12,12.47C15.29,12.47 18,13.79 18,15.47C17.76,16 17.47,16.5 17.13,17Z" /></svg>
+    
+                        <h3>Privacy</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="main_content">
+
+            <div class="project_container"> 
+                <h3>Your Projects</h3>
+                <div class="projects">
+                    <div class="project">
+                        <h3>super cool project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam accusamus velit suscipit natus deserunt.</p>
+                    </div>
+                    <div class="project">
+                        <h3>less cool project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam accusamus velit suscipit natus deserunt.</p>
+                    </div>
+                    <div class="project">
+                        <h3>impossible app</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam accusamus velit suscipit natus deserunt.</p>
+                    </div>
+                    <div class="project">
+                        <h3>easy peasy app</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam accusamus velit suscipit natus deserunt.</p>
+                    </div>
+                    <div class="project">
+                        <h3>adblocker</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam accusamus velit suscipit natus deserunt.</p>
+                    </div>
+                    <div class="project">
+                        <h3>money maker</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam accusamus velit suscipit natus deserunt.</p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="announcements">
+                announcements
+            </div>
+
+            <div class="trending">
+                trending
+            </div>
+
+        </div>
 
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
