@@ -1,7 +1,112 @@
 
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
 .container {
     display: grid;
-    grid-template: 1fr 3fr/ 0.8fr 3fr; 
+    grid-template: 0.4fr 3fr/ 0.7fr 3fr; 
+}
+
+.header {
+    grid-area: 1/2/2/3;
+    background-color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav_icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+input {
+    display: block;
+    width: 500px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: #cbd5e1;
+    border: 1px solid gainsboro;
+}
+
+.side {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 15px;
+}
+
+.nav_logo {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 15px;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    gap: 20px;
+}
+
+.welcome_text {
+    display: flex;
+    flex-direction: column;
+}
+.welcome_text p, .welcome_text h3{
+    margin: 0;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav_list {
+    display: flex;
+    margin: 0;
+    padding: 0 40px;
+    align-items: center;
+}
+
+.nav_list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 40px;
+}
+
+.nav_list ul li {
+    display: inline;
+}
+
+.nav_list ul li button {
+    padding: 8px 20px;
+    background-color: #0ea5e9;
+    color: white;
+    border: 1px solid #0ea5e9;
+    border-radius: 12px;
 }
 
 .sidebar {
@@ -16,7 +121,8 @@
     gap: 50px;
 }
 
-svg {
+.icon{
+    fill: white;
     color: white;
     width: 2rem;
     height: 1.5rem;
@@ -41,42 +147,150 @@ svg {
     margin: 0;
 }
 
-
-.header {
-    grid-area: 1/2/2/3;
-    background-color: yellow;
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .main_content {
     grid-area: 2/2/3/3;
-    background-color: #ebeef2;
+    background-color: #e2e8f0;
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 0.5fr 0.5fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
     gap: 10px;
 }
 
 .project_container {
-    grid-area: 1/1/5/3;
-    background-color: green;
+    grid-area: 1/1/5/2;
 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.25fr 1fr 1fr 1fr;
-    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
 }
 
-.project_container h3{
-    grid-area: 1/1/2/3;
+.your_projects {
+    margin: 0;
+    padding: 20px 20px;
+}
+
+.projects {
+    display: flex;
+    gap: 20px;
+    padding: 0px 15px;
+
+}
+
+.projects_right,.projects_left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project {
+    background-color: white;
+    border-left: 10px solid #facc15;
+    padding: 20px 30px 20px 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.project h4{
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.project p{
+    margin: 0;
+    font-size: 15px;
+}
+
+.project_icon{
+    display: flex;
+    gap: 15px;
+    align-items: flex-end;
+    padding: 50px 0px 10px 120px;
+}
+
+.project_icon svg{
+    height: 1rem;
+    width: 1rem;
 }
 
 .announcements {
-    grid-area: 1/3/3/4;
-    background-color: rgb(240, 0, 217);
+    grid-area: 1/2/3/3;
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+
+.a_head{
+    margin: 0;
+    padding: 10px 20px 10px 0px;
+}
+.announce_box{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px grey;
+    padding: 10px;
+}
+.announce {
+    padding: 10px;
+
+}
+
+.announce h5, .announce p{
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.divider {
+    border: 1px solid #a1a1aa;
+    margin: 0px 8px;
 }
 
 .trending {
-    grid-area: 3/3/5/4;
-    background-color: blueviolet;
+    grid-area: 3/2/5/3;
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 0px;
+}
+
+.trending h4{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.trend_card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px grey;
+    padding: 20px;
+}
+
+.trend {
+    display: flex;
+    padding: 5px;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.trend img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.trend h6 {
+    margin: 0;
+}
+
+.trend p{
+    margin: 0;
+    font-size: 13px;
 }
