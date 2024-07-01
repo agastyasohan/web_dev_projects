@@ -1,5 +1,11 @@
 # Books'n Books Landing Page
 
+## Live Preview
+
+Check out the live preview of the Books'n Books landing page:
+
+[Books'n Books Landing Page](https://agastyasohan.github.io/web_dev_projects/landing_page)
+
 ## Description
 
 This project is a landing page for a fictional bookstore called "Books'n Books". It was created as a practice exercise to improve HTML and CSS skills. The page features a responsive design with various sections including a hero banner, featured book categories, a quote section, and a sign-up call-to-action.
