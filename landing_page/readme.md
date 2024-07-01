@@ -24,17 +24,6 @@ This project is a landing page for a fictional bookstore called "Books'n Books".
 - HTML5
 - CSS3
 
-## File Structure
-landing_page/
-│
-├── index.html
-├── stylez.css
-│
-└── assets/
-├── books_img.png
-├── Designer.jpeg
-├── award_book.jpeg
-└── new_arrival.jpeg
 
 ## Setup
 
