@@ -31,20 +31,27 @@ This project is a simple library application built to practice and demonstrate t
 
 ## Getting Started
 
-To get a local copy up and running, follow these simple steps:
+To get a local copy up and running follow these simple example steps.
 
-1. **Clone the repository**:
-    ```sh
-    git clone https://github.com/your-username/library-project.git
+1. **Clone the repository**
+
+    ```bash
+    git clone https://github.com/agastyasohan/web_dev_projects.git
     ```
-2. **Navigate to the project directory**:
-    ```sh
-    cd library-project
+
+2. **Navigate to the project directory**
+
+    ```bash
+    cd web_dev_projects/library_app
     ```
-3. **Open index.html in your browser**:
-    ```sh
-    open index.html
+3. **Open the project in your favorite code editor**
+
+    ```bash
+    code .
     ```
+
+4. **Open `index.html` in your browser**
+
 
 ## Code Explanation
 
@@ -73,3 +80,6 @@ myLibrary.push(book2);
 
 displayBooks();
 ```
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
