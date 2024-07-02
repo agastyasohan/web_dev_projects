@@ -2,9 +2,9 @@
 
 ## Live Preview
 
-Check out the live preview of the Books'n Books landing page:
+Check out the live preview of the Library App:
 
-[Library App](https://agastyasohan.github.io/web_dev_projects/library_app)
+# [Library App](https://agastyasohan.github.io/web_dev_projects/library_app)
 
 ## Overview
 
