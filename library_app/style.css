@@ -13,7 +13,7 @@ body {
 
 .top {
     width: 100vw;
-    height: 200px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,6 +91,7 @@ dialog[open] {
 
 .formTop {
     display: flex;
+    padding: 0px 20px;
     gap: 140px;
 }
 
@@ -114,4 +115,13 @@ dialog[open] {
     width: 30px;
 }
 
+.bookCards {
+    flex-grow: 1;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(250px, 1fr);
+    gap: 10px;
+    font-size: 24px;
+}
 
