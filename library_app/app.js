@@ -33,16 +33,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const myLibrary = [];
 
-    function Book(title, author, pages, read) {
-        this.title = title;
-        this.author = author;
-        this.pages = pages;
-        this.read = read;
+    class Book {
+        constructor(title, author, pages, read) {
+            this.title = title;
+            this.author = author;
+            this.pages = pages;
+            this.read = read;
+        }
+        toggleReadStatus() {
+            this.read = (this.read === "Finished" ? "Not Finished" : "Finished");
+        }
     }
 
-    Book.prototype.toggleReadStatus = function() {
-        this.read = (this.read === "Finished" ? "Not Finished" : "Finished" );
-    }
 
     //default books to add
     let book1 = new Book("The Alchemist", "Paulo Coelho", 156, "Finished");
